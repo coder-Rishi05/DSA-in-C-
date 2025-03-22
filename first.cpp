@@ -108,7 +108,7 @@ void ptrnSix(int line)
 int main()
 {
     int n;
-    cout << "Enter the value for n ";
+    cout << "Enter the value for n : ";
     cin >> n;
     ptrnOne(n);
     ptrnTwo(n);
