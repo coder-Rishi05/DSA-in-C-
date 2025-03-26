@@ -105,6 +105,69 @@ void ptrnSix(int line)
     }
 }
 
+void ptrnSeven(int line)
+{
+    for (int i = 0; i < line; i++)
+    {
+        for (int j = i + 1; j < line; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
+
+
+void ptrnEight(int line)
+{
+    /*
+     *
+     * * *
+     * * * * *
+     * * * * * * *
+     * * * * * * * * *
+     */
+    for (int i = 0; i < line; i++)
+    {
+        for (int j = 0; j < line - i - 1; j++)
+        {
+            cout << " ";
+        }
+        for (int k = 0; k < 2 * i + 1; k++)
+        {
+            cout << "*";
+        }
+        for (int j = 0; j < line - i - 1; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
+
+void ptrnNine(int line)
+{
+    for (int i = 0; i < line; i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        for (int k = 0; k < (2 * (line - i) - 1); k++)
+        {
+            cout << "*";
+        }
+
+        cout << endl;
+    }
+}
+
+void ptrnten(int line)
+{
+    
+}
+
+
 int main()
 {
     int n;
@@ -116,6 +179,8 @@ int main()
     ptrnFour(n);
     ptrnFive(n);
     ptrnSix(n);
-
+    ptrnSeven(n);
+    ptrnEight(n);
+    ptrnNine(n);
     return 0;
 }
