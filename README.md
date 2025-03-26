@@ -60,5 +60,5 @@ patterns in this file are :-
 `  ******* `  <br>
 `  ***** `  <br>
 `   ***  `  <br>
-`    *`  <br>
+`   *`  <br>
 ****
