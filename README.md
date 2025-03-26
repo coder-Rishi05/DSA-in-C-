@@ -44,3 +44,10 @@ patterns in this file are :-
 `1 2` <br>
 `1` <br>
 <br> <br> 
+ 
+`    *`  <br>
+`   ***`  <br>
+`  *****`  <br>
+` *******`  <br>
+`*********`  <br>
+****
