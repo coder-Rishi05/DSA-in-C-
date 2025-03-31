@@ -112,11 +112,19 @@ patterns in this file are :-
 `8 9 10 11 12 13 14 15`<br>
 
 ****
+`A`<br>
+`A B`<br>
+`A B C`<br>
+`A B C D`<br>
+`A B C D E`<br>
 
 ****
 
-
-
+`A B C D E `<br>
+`A B C D `<br>
+`A B C `<br>
+`A B `<br>
+`A `<br>
 
 ****
 
